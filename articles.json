@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "id": "digital-basics",
+      "title": "A Practical Guide to Digital Basics",
+      "titleBn": "ডিজিটাল জগতের প্রয়োজনীয় কিছু বিষয়",
+      "category": "Guides",
+      "date": "2026-10-10",
+      "readTime": "5 min read",
+      "summary": "A friendly starting point for understanding everyday digital tools, online safety and smarter habits.",
+      "summaryBn": "দৈনন্দিন ডিজিটাল টুল, অনলাইন নিরাপত্তা এবং ভালো অভ্যাস বোঝার সহজ সূচনা।",
+      "cover": "",
+      "featured": true,
+      "body": "## Start with the essentials\n\nDigital confidence grows when you understand a few fundamentals and practise them regularly. Keep your accounts secure, check sources before sharing information, and use tools that solve a real problem.\n\n## Three habits worth building\n\n- Use unique passwords and turn on two-step verification.\n- Keep your phone and apps updated.\n- Pause before clicking unfamiliar links or sharing personal information."
+    },
+    {
+      "id": "learning-online",
+      "title": "How to Learn Better Online",
+      "titleBn": "অনলাইনে আরও ভালোভাবে শেখার উপায়",
+      "category": "Ideas",
+      "date": "2026-10-06",
+      "readTime": "4 min read",
+      "summary": "Build a simple learning routine, avoid distractions and turn online information into practical knowledge.",
+      "summaryBn": "সহজ রুটিন তৈরি, মনোযোগ ধরে রাখা এবং অনলাইন তথ্যকে কাজে লাগানোর কৌশল।",
+      "cover": "",
+      "featured": false,
+      "body": "## Make learning intentional\n\nChoose one clear goal for each session. Instead of opening many tabs, keep a short list of questions you want to answer.\n\n## Practise what you learn\n\nWrite a summary in your own words, explain the idea to someone else, or try a small project."
+    },
+    {
+      "id": "ai-everyday",
+      "title": "AI Tools: A Helpful Starting Point",
+      "titleBn": "AI টুল: শুরু করার সহজ গাইড",
+      "category": "Technology",
+      "date": "2026-10-02",
+      "readTime": "6 min read",
+      "summary": "Learn how to use AI thoughtfully for research, brainstorming and everyday productivity.",
+      "summaryBn": "রিসার্চ, আইডিয়া তৈরি এবং দৈনন্দিন কাজের জন্য AI কীভাবে সচেতনভাবে ব্যবহার করবেন।",
+      "cover": "",
+      "featured": false,
+      "body": "## Treat AI as an assistant\n\nAI tools can help you brainstorm, organise notes, draft text and explore unfamiliar topics. They can also make mistakes, so important claims should be checked against reliable sources.\n\n## Protect your information\n\nAvoid entering passwords, financial details or sensitive personal information into tools unless you understand their privacy and security practices."
+    }
+  ]
+}

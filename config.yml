@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: /
+display_url: /
+locale: "en"
+publish_mode: simple
+collections:
+  - name: "site_content"
+    label: "Website Articles"
+    files:
+      - name: "articles"
+        label: "Articles"
+        file: "content/articles.json"
+        format: "json"
+        fields:
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID / URL slug (unique, English, no spaces)", name: "id", widget: "string" }
+              - { label: "Title (English)", name: "title", widget: "string" }
+              - { label: "Title (Bangla)", name: "titleBn", widget: "string", required: false }
+              - { label: "Category", name: "category", widget: "select", options: ["Technology", "Guides", "Ideas", "News", "Lifestyle"] }
+              - { label: "Publish date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: "Reading time", name: "readTime", widget: "string", default: "4 min read" }
+              - { label: "Summary (English)", name: "summary", widget: "text" }
+              - { label: "Summary (Bangla)", name: "summaryBn", widget: "text", required: false }
+              - { label: "Cover image path", name: "cover", widget: "string", required: false, hint: "Upload media or use /assets/uploads/your-image.jpg" }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+              - { label: "Article body (Markdown)", name: "body", widget: "markdown" }
